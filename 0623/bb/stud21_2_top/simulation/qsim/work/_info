@@ -1,0 +1,128 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_2_top/simulation/qsim
+vhard_block
+Z1 !s110 1624436962
+!i10b 1
+!s100 ZGDbYNP7Od8>7aM4Rl9LA3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IfNd<R7L3o?fHWncZA6:co0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1624436960
+Z5 8stud21_2_top.vo
+Z6 Fstud21_2_top.vo
+!i122 10
+L0 1985 45
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1624436961.000000
+Z9 !s107 stud21_2_top.vo|
+Z10 !s90 -work|work|stud21_2_top.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vstud21_2_top
+Z13 !s110 1624435830
+!i10b 1
+!s100 1zaETh]i=;;0>6Ho3JC_]2
+R2
+IBoZEd_NH]BgORTR4Nn@Ak3
+R3
+R0
+w1624435829
+R5
+R6
+!i122 8
+Z14 L0 32 1952
+R7
+r1
+!s85 0
+31
+Z15 !s108 1624435830.000000
+R9
+R10
+!i113 1
+R11
+R12
+vstud21_2_top_vlg_vec_tst
+R13
+!i10b 1
+!s100 12AeWg94S=?E:zZhi8e041
+R2
+I>lf:EB@[6oS<_nPO12;oh3
+R3
+R0
+w1624435828
+Z16 8Waveform.vwf.vt
+Z17 FWaveform.vwf.vt
+!i122 9
+Z18 L0 30 83
+R7
+r1
+!s85 0
+31
+R15
+!s107 Waveform.vwf.vt|
+Z19 !s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R11
+R12
+vUART_TX_1
+R1
+!i10b 1
+!s100 ]OdUOPV`9zk`3^OOOn]jV0
+R2
+IG:KR[<NnIdC[Rdd`G]USj1
+R3
+R0
+R4
+R5
+R6
+!i122 10
+R14
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@u@a@r@t_@t@x_1
+vUART_TX_1_vlg_vec_tst
+R1
+!i10b 1
+!s100 Z>FFiUE:XGcn93?c1]V_J1
+R2
+Il]9WA[32B9Af3P8A490oM2
+R3
+R0
+w1624436959
+R16
+R17
+!i122 11
+R18
+R7
+r1
+!s85 0
+31
+!s108 1624436962.000000
+Z20 !s107 Waveform.vwf.vt|
+R19
+!i113 1
+R11
+R12
+n@u@a@r@t_@t@x_1_vlg_vec_tst

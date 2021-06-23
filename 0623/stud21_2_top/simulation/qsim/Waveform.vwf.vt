@@ -1,0 +1,113 @@
+// Copyright (C) 2020  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "06/23/2021 16:38:28"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          stud21_2_top
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module stud21_2_top_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg clk;
+reg i_RX_Bit_1;
+reg rst;
+// wires                                               
+wire [23:0] key_buf_code_1;
+wire [3:0] o_RX_Byte;
+
+// assign statements (if any)                          
+stud21_2_top i1 (
+// port map - connection between master ports and signals/registers   
+	.clk(clk),
+	.i_RX_Bit_1(i_RX_Bit_1),
+	.key_buf_code_1(key_buf_code_1),
+	.o_RX_Byte(o_RX_Byte),
+	.rst(rst)
+);
+initial 
+begin 
+#700000 $finish;
+end 
+
+// clk
+always
+begin
+	clk = 1'b0;
+	clk = #5000 1'b1;
+	#5000;
+end 
+
+// rst
+initial
+begin
+	rst = 1'b1;
+	rst = #20000 1'b0;
+end 
+
+// i_RX_Bit_1
+initial
+begin
+	i_RX_Bit_1 = 1'b1;
+	i_RX_Bit_1 = #30000 1'b0;
+	i_RX_Bit_1 = #30000 1'b1;
+	i_RX_Bit_1 = #10000 1'b0;
+	i_RX_Bit_1 = #10000 1'b1;
+	i_RX_Bit_1 = #10000 1'b0;
+	i_RX_Bit_1 = #10000 1'b1;
+	i_RX_Bit_1 = #10000 1'b0;
+	i_RX_Bit_1 = #30000 1'b1;
+	i_RX_Bit_1 = #10000 1'b0;
+	i_RX_Bit_1 = #10000 1'b1;
+	i_RX_Bit_1 = #10000 1'b0;
+	i_RX_Bit_1 = #20000 1'b1;
+	i_RX_Bit_1 = #20000 1'b0;
+	i_RX_Bit_1 = #10000 1'b1;
+	i_RX_Bit_1 = #10000 1'b0;
+	i_RX_Bit_1 = #10000 1'b1;
+	i_RX_Bit_1 = #10000 1'b0;
+	i_RX_Bit_1 = #10000 1'b1;
+	i_RX_Bit_1 = #10000 1'b0;
+	i_RX_Bit_1 = #10000 1'b1;
+	i_RX_Bit_1 = #50000 1'b0;
+	i_RX_Bit_1 = #40000 1'b1;
+	i_RX_Bit_1 = #20000 1'b0;
+	i_RX_Bit_1 = #20000 1'b1;
+	i_RX_Bit_1 = #10000 1'b0;
+	i_RX_Bit_1 = #10000 1'b1;
+	i_RX_Bit_1 = #20000 1'b0;
+	i_RX_Bit_1 = #20000 1'b1;
+	i_RX_Bit_1 = #20000 1'b0;
+	i_RX_Bit_1 = #10000 1'b1;
+	i_RX_Bit_1 = #10000 1'b0;
+	i_RX_Bit_1 = #10000 1'b1;
+	i_RX_Bit_1 = #30000 1'b0;
+	i_RX_Bit_1 = #10000 1'b1;
+	i_RX_Bit_1 = #10000 1'b0;
+	i_RX_Bit_1 = #10000 1'b1;
+	i_RX_Bit_1 = #20000 1'b0;
+	i_RX_Bit_1 = #20000 1'b1;
+end 
+endmodule
+
