@@ -1,5 +1,5 @@
 Flow report for stud21_1_top
-Wed Jun 23 14:38:03 2021
+Wed Jun 23 15:38:03 2021
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -41,18 +41,18 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Wed Jun 23 14:38:02 2021       ;
+; Flow Status                        ; Successful - Wed Jun 23 15:38:03 2021       ;
 ; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                      ; stud21_1_top                                ;
 ; Top-level Entity Name              ; stud21_1_top                                ;
 ; Family                             ; MAX 10                                      ;
 ; Device                             ; 10M50DAF484C7G                              ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 38 / 49,760 ( < 1 % )                       ;
-;     Total combinational functions  ; 15 / 49,760 ( < 1 % )                       ;
-;     Dedicated logic registers      ; 34 / 49,760 ( < 1 % )                       ;
-; Total registers                    ; 34                                          ;
-; Total pins                         ; 45 / 360 ( 13 % )                           ;
+; Total logic elements               ; 109 / 49,760 ( < 1 % )                      ;
+;     Total combinational functions  ; 51 / 49,760 ( < 1 % )                       ;
+;     Dedicated logic registers      ; 102 / 49,760 ( < 1 % )                      ;
+; Total registers                    ; 102                                         ;
+; Total pins                         ; 133 / 360 ( 37 % )                          ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0 / 1,677,312 ( 0 % )                       ;
 ; Embedded Multiplier 9-bit elements ; 0 / 288 ( 0 % )                             ;
@@ -67,7 +67,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 06/23/2021 14:03:44 ;
+; Start date & time ; 06/23/2021 15:29:11 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; stud21_1_top        ;
 +-------------------+---------------------+
@@ -78,7 +78,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 104159904306971.162442822427036        ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 104159904306971.162443335006152        ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
 ; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
@@ -95,29 +95,21 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:08     ; 1.0                     ; 4778 MB             ; 00:00:19                           ;
-; Fitter               ; 00:00:13     ; 1.0                     ; 5772 MB             ; 00:00:17                           ;
-; Assembler            ; 00:00:03     ; 1.0                     ; 4687 MB             ; 00:00:03                           ;
-; Timing Analyzer      ; 00:00:02     ; 1.0                     ; 4845 MB             ; 00:00:02                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4631 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4639 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4630 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4639 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4631 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4639 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4631 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4639 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4631 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4639 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4631 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4639 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4631 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4639 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4631 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4639 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4631 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4639 MB             ; 00:00:01                           ;
-; Total                ; 00:00:35     ; --                      ; --                  ; 00:00:59                           ;
+; Analysis & Synthesis ; 00:00:11     ; 1.0                     ; 4773 MB             ; 00:00:25                           ;
+; Fitter               ; 00:00:22     ; 1.0                     ; 5775 MB             ; 00:00:28                           ;
+; Assembler            ; 00:00:04     ; 1.0                     ; 4692 MB             ; 00:00:03                           ;
+; Timing Analyzer      ; 00:00:03     ; 1.1                     ; 4850 MB             ; 00:00:04                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4632 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4641 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4632 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4641 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4632 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4641 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4632 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4641 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4633 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4642 MB             ; 00:00:01                           ;
+; Total                ; 00:00:43     ; --                      ; --                  ; 00:01:10                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -140,14 +132,6 @@ https://fpgasoftware.intel.com/eula.
 ; EDA Netlist Writer   ; DESKTOP-S76TL8F  ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; DESKTOP-S76TL8F  ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; DESKTOP-S76TL8F  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-S76TL8F  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-S76TL8F  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-S76TL8F  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-S76TL8F  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-S76TL8F  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-S76TL8F  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-S76TL8F  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-S76TL8F  ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -158,23 +142,15 @@ quartus_map --read_settings_files=on --write_settings_files=off stud21_1_top -c 
 quartus_fit --read_settings_files=off --write_settings_files=off stud21_1_top -c stud21_1_top
 quartus_asm --read_settings_files=off --write_settings_files=off stud21_1_top -c stud21_1_top
 quartus_sta stud21_1_top -c stud21_1_top
-quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off stud21_1_top -c stud21_1_top --vector_source=C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/test_1_1.vwf --testbench_file=C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/simulation/qsim/test_1_1.vwf.vt
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off stud21_1_top -c stud21_1_top --vector_source=C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/test_1_4.vwf --testbench_file=C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/simulation/qsim/test_1_4.vwf.vt
 quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/simulation/qsim/ stud21_1_top -c stud21_1_top
-quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off stud21_1_top -c stud21_1_top --vector_source=C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/test_1_1.vwf --testbench_file=C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/simulation/qsim/test_1_1.vwf.vt
-quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/simulation/qsim/ stud21_1_top -c stud21_1_top
-quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off stud21_1_top -c stud21_1_top --vector_source=C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/test_1_1.vwf --testbench_file=C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/simulation/qsim/test_1_1.vwf.vt
-quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/simulation/qsim/ stud21_1_top -c stud21_1_top
-quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off stud21_1_top -c stud21_1_top --vector_source=C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/test_1_1.vwf --testbench_file=C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/simulation/qsim/test_1_1.vwf.vt
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off stud21_1_top -c stud21_1_top --vector_source=C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/test_1_4.vwf --testbench_file=C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/simulation/qsim/test_1_4.vwf.vt
 quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/simulation/qsim/ stud21_1_top -c stud21_1_top
 quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off stud21_1_top -c stud21_1_top --vector_source=C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/Waveform.vwf --testbench_file=C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/simulation/qsim/Waveform.vwf.vt
 quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/simulation/qsim/ stud21_1_top -c stud21_1_top
 quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off stud21_1_top -c stud21_1_top --vector_source=C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/Waveform.vwf --testbench_file=C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/simulation/qsim/Waveform.vwf.vt
 quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/simulation/qsim/ stud21_1_top -c stud21_1_top
-quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off stud21_1_top -c stud21_1_top --vector_source=C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/Waveform.vwf --testbench_file=C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/simulation/qsim/Waveform.vwf.vt
-quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/simulation/qsim/ stud21_1_top -c stud21_1_top
-quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off stud21_1_top -c stud21_1_top --vector_source=C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/Waveform.vwf --testbench_file=C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/simulation/qsim/Waveform.vwf.vt
-quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/simulation/qsim/ stud21_1_top -c stud21_1_top
-quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off stud21_1_top -c stud21_1_top --vector_source=C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/Waveform.vwf --testbench_file=C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/simulation/qsim/Waveform.vwf.vt
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off stud21_1_top -c stud21_1_top --vector_source=C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/test_1_4.vwf --testbench_file=C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/simulation/qsim/test_1_4.vwf.vt
 quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/simulation/qsim/ stud21_1_top -c stud21_1_top
 
 

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for stud21_1_top
-Wed Jun 23 14:03:52 2021
+Wed Jun 23 15:29:21 2021
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -13,12 +13,13 @@ Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. General Register Statistics
-  9. Inverted Register Statistics
- 10. Multiplexer Restructuring Statistics (Restructuring Performed)
- 11. Post-Synthesis Netlist Statistics for Top Partition
- 12. Elapsed Time Per Partition
- 13. Analysis & Synthesis Messages
+  8. Registers Removed During Synthesis
+  9. General Register Statistics
+ 10. Inverted Register Statistics
+ 11. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 12. Post-Synthesis Netlist Statistics for Top Partition
+ 13. Elapsed Time Per Partition
+ 14. Analysis & Synthesis Messages
 
 
 
@@ -45,16 +46,16 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Jun 23 14:03:52 2021       ;
+; Analysis & Synthesis Status        ; Successful - Wed Jun 23 15:29:21 2021       ;
 ; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                      ; stud21_1_top                                ;
 ; Top-level Entity Name              ; stud21_1_top                                ;
 ; Family                             ; MAX 10                                      ;
-; Total logic elements               ; 41                                          ;
-;     Total combinational functions  ; 13                                          ;
-;     Dedicated logic registers      ; 34                                          ;
-; Total registers                    ; 34                                          ;
-; Total pins                         ; 45                                          ;
+; Total logic elements               ; 112                                         ;
+;     Total combinational functions  ; 48                                          ;
+;     Dedicated logic registers      ; 102                                         ;
+; Total registers                    ; 102                                         ;
+; Total pins                         ; 133                                         ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0                                           ;
 ; Embedded Multiplier 9-bit elements ; 0                                           ;
@@ -184,30 +185,30 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimated Total logic elements              ; 41        ;
+; Estimated Total logic elements              ; 112       ;
 ;                                             ;           ;
-; Total combinational functions               ; 13        ;
+; Total combinational functions               ; 48        ;
 ; Logic element usage by number of LUT inputs ;           ;
-;     -- 4 input functions                    ; 6         ;
-;     -- 3 input functions                    ; 0         ;
-;     -- <=2 input functions                  ; 7         ;
+;     -- 4 input functions                    ; 12        ;
+;     -- 3 input functions                    ; 1         ;
+;     -- <=2 input functions                  ; 35        ;
 ;                                             ;           ;
 ; Logic elements by mode                      ;           ;
-;     -- normal mode                          ; 13        ;
+;     -- normal mode                          ; 48        ;
 ;     -- arithmetic mode                      ; 0         ;
 ;                                             ;           ;
-; Total registers                             ; 34        ;
-;     -- Dedicated logic registers            ; 34        ;
+; Total registers                             ; 102       ;
+;     -- Dedicated logic registers            ; 102       ;
 ;     -- I/O registers                        ; 0         ;
 ;                                             ;           ;
-; I/O pins                                    ; 45        ;
+; I/O pins                                    ; 133       ;
 ;                                             ;           ;
 ; Embedded Multiplier 9-bit elements          ; 0         ;
 ;                                             ;           ;
 ; Maximum fan-out node                        ; clk~input ;
-; Maximum fan-out                             ; 34        ;
-; Total fan-out                               ; 251       ;
-; Average fan-out                             ; 1.83      ;
+; Maximum fan-out                             ; 102       ;
+; Total fan-out                               ; 781       ;
+; Average fan-out                             ; 1.88      ;
 +---------------------------------------------+-----------+
 
 
@@ -216,12 +217,41 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-----------------------------+--------------+--------------+
 ; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name         ; Entity Name  ; Library Name ;
 +----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-----------------------------+--------------+--------------+
-; |stud21_1_top              ; 13 (0)              ; 34 (0)                    ; 0           ; 0          ; 0            ; 0       ; 0         ; 45   ; 0            ; 0          ; |stud21_1_top               ; stud21_1_top ; work         ;
-;    |key_buffer:m3|         ; 0 (0)               ; 30 (30)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |stud21_1_top|key_buffer:m3 ; key_buffer   ; work         ;
+; |stud21_1_top              ; 48 (0)              ; 102 (0)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 133  ; 0            ; 0          ; |stud21_1_top               ; stud21_1_top ; work         ;
+;    |key_buffer:m3|         ; 35 (35)             ; 98 (98)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |stud21_1_top|key_buffer:m3 ; key_buffer   ; work         ;
 ;    |keyboard:m2|           ; 11 (11)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |stud21_1_top|keyboard:m2   ; keyboard     ; work         ;
 ;    |kr_scan:m1|            ; 2 (2)               ; 4 (4)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |stud21_1_top|kr_scan:m1    ; kr_scan      ; work         ;
 +----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-----------------------------+--------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++-------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                  ;
++----------------------------------------+--------------------------------------------+
+; Register name                          ; Reason for Removal                         ;
++----------------------------------------+--------------------------------------------+
+; key_buffer:m3|key_buf_code_3[0]        ; Merged with key_buffer:m3|key_buf_code[0]  ;
+; key_buffer:m3|key_buf_code_3[1]        ; Merged with key_buffer:m3|key_buf_code[1]  ;
+; key_buffer:m3|key_buf_code_3[2]        ; Merged with key_buffer:m3|key_buf_code[2]  ;
+; key_buffer:m3|key_buf_code_3[4]        ; Merged with key_buffer:m3|key_buf_code[4]  ;
+; key_buffer:m3|key_buf_code_3[5]        ; Merged with key_buffer:m3|key_buf_code[5]  ;
+; key_buffer:m3|key_buf_code_3[6]        ; Merged with key_buffer:m3|key_buf_code[6]  ;
+; key_buffer:m3|key_buf_code_3[8]        ; Merged with key_buffer:m3|key_buf_code[8]  ;
+; key_buffer:m3|key_buf_code_3[9]        ; Merged with key_buffer:m3|key_buf_code[9]  ;
+; key_buffer:m3|key_buf_code_3[10]       ; Merged with key_buffer:m3|key_buf_code[10] ;
+; key_buffer:m3|key_buf_code_3[12]       ; Merged with key_buffer:m3|key_buf_code[12] ;
+; key_buffer:m3|key_buf_code_3[13]       ; Merged with key_buffer:m3|key_buf_code[13] ;
+; key_buffer:m3|key_buf_code_3[14]       ; Merged with key_buffer:m3|key_buf_code[14] ;
+; key_buffer:m3|key_buf_code_3[16]       ; Merged with key_buffer:m3|key_buf_code[16] ;
+; key_buffer:m3|key_buf_code_3[17]       ; Merged with key_buffer:m3|key_buf_code[17] ;
+; key_buffer:m3|key_buf_code_3[18]       ; Merged with key_buffer:m3|key_buf_code[18] ;
+; key_buffer:m3|key_buf_code_3[3]        ; Merged with key_buffer:m3|key_buf_code[3]  ;
+; key_buffer:m3|key_buf_code_3[7]        ; Merged with key_buffer:m3|key_buf_code[7]  ;
+; key_buffer:m3|key_buf_code_3[11]       ; Merged with key_buffer:m3|key_buf_code[11] ;
+; key_buffer:m3|key_buf_code_3[15]       ; Merged with key_buffer:m3|key_buf_code[15] ;
+; key_buffer:m3|key_buf_code_3[19]       ; Merged with key_buffer:m3|key_buf_code[19] ;
+; Total Number of Removed Registers = 20 ;                                            ;
++----------------------------------------+--------------------------------------------+
 
 
 +------------------------------------------------------+
@@ -229,12 +259,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 34    ;
+; Total registers                              ; 102   ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 34    ;
+; Number of registers using Asynchronous Clear ; 102   ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 30    ;
+; Number of registers using Clock Enable       ; 98    ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -265,18 +295,19 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; boundary_port         ; 45                          ;
-; cycloneiii_ff         ; 34                          ;
+; boundary_port         ; 133                         ;
+; cycloneiii_ff         ; 102                         ;
 ;     CLR               ; 4                           ;
-;     ENA CLR           ; 30                          ;
-; cycloneiii_lcell_comb ; 16                          ;
-;     normal            ; 16                          ;
+;     ENA CLR           ; 98                          ;
+; cycloneiii_lcell_comb ; 51                          ;
+;     normal            ; 51                          ;
 ;         1 data inputs ; 5                           ;
-;         2 data inputs ; 5                           ;
-;         4 data inputs ; 6                           ;
+;         2 data inputs ; 33                          ;
+;         3 data inputs ; 1                           ;
+;         4 data inputs ; 12                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 2.00                        ;
-; Average LUT depth     ; 0.77                        ;
+; Max LUT depth         ; 4.00                        ;
+; Average LUT depth     ; 1.52                        ;
 +-----------------------+-----------------------------+
 
 
@@ -295,7 +326,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Wed Jun 23 14:03:44 2021
+    Info: Processing started: Wed Jun 23 15:29:10 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off stud21_1_top -c stud21_1_top
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
@@ -308,22 +339,22 @@ Info (12021): Found 1 design units, including 1 entities, in source file key_buf
 Info (12021): Found 1 design units, including 1 entities, in source file keyboard.v
     Info (12023): Found entity 1: keyboard File: C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/keyboard.v Line: 1
 Info (12127): Elaborating entity "stud21_1_top" for the top level hierarchy
-Info (12128): Elaborating entity "kr_scan" for hierarchy "kr_scan:m1" File: C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/stud21_1_top.v Line: 10
-Info (12128): Elaborating entity "keyboard" for hierarchy "keyboard:m2" File: C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/stud21_1_top.v Line: 11
-Info (12128): Elaborating entity "key_buffer" for hierarchy "key_buffer:m3" File: C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/stud21_1_top.v Line: 12
+Info (12128): Elaborating entity "kr_scan" for hierarchy "kr_scan:m1" File: C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/stud21_1_top.v Line: 13
+Info (12128): Elaborating entity "keyboard" for hierarchy "keyboard:m2" File: C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/stud21_1_top.v Line: 14
+Info (12128): Elaborating entity "key_buffer" for hierarchy "key_buffer:m3" File: C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/stud21_1_top.v Line: 15
 Info (13000): Registers with preset signals will power-up high File: C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/kr_scan.v Line: 9
 Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 90 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 249 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 6 input pins
-    Info (21059): Implemented 39 output pins
-    Info (21061): Implemented 45 logic cells
+    Info (21059): Implemented 127 output pins
+    Info (21061): Implemented 116 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4778 megabytes
-    Info: Processing ended: Wed Jun 23 14:03:52 2021
-    Info: Elapsed time: 00:00:08
-    Info: Total CPU time (on all processors): 00:00:20
+    Info: Peak virtual memory: 4773 megabytes
+    Info: Processing ended: Wed Jun 23 15:29:21 2021
+    Info: Elapsed time: 00:00:11
+    Info: Total CPU time (on all processors): 00:00:25
 
 

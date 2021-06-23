@@ -7,7 +7,7 @@ Note: if both ModelSim-Altera and ModelSim executables are available, ModelSim-A
 
 **** Generating the ModelSim Testbench ****
 
-quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off stud21_1_top -c stud21_1_top --vector_source="C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/Waveform.vwf" --testbench_file="C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/simulation/qsim/Waveform.vwf.vt"
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off stud21_1_top -c stud21_1_top --vector_source="C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/test_1_4.vwf" --testbench_file="C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/simulation/qsim/test_1_4.vwf.vt"
 
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
@@ -26,11 +26,11 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details, at
     Info: https://fpgasoftware.intel.com/eula.
-    Info: Processing started: Wed Jun 23 14:38:01 2021
-Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off stud21_1_top -c stud21_1_top --vector_source=C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/Waveform.vwf --testbench_file=C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/simulation/qsim/Waveform.vwf.vt
+    Info: Processing started: Wed Jun 23 15:38:02 2021
+Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off stud21_1_top -c stud21_1_top --vector_source=C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/test_1_4.vwf --testbench_file=C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/simulation/qsim/test_1_4.vwf.vt
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 
-_1[8]" in vector source file when writing test bench files
+ource file when writing test bench files
 
 Completed successfully. 
 
@@ -57,14 +57,14 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details, at
     Info: https://fpgasoftware.intel.com/eula.
-    Info: Processing started: Wed Jun 23 14:38:02 2021
+    Info: Processing started: Wed Jun 23 15:38:03 2021
 Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/simulation/qsim/ stud21_1_top -c stud21_1_top
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (204019): Generated file stud21_1_top.vo in folder "C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/simulation/qsim//" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4640 megabytes
-    Info: Processing ended: Wed Jun 23 14:38:03 2021
-    Info: Elapsed time: 00:00:01
+    Info: Peak virtual memory: 4642 megabytes
+    Info: Processing ended: Wed Jun 23 15:38:03 2021
+    Info: Elapsed time: 00:00:00
     Info: Total CPU time (on all processors): 00:00:01
 
 Completed successfully. 
@@ -83,33 +83,33 @@ Reading pref.tcl
 
 # 2020.1
 
-
 # do stud21_1_top.do
+
 # ** Warning: (vlib-34) Library already exists at "work".
 
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:38:04 on Jun 23,2021
+# Start time: 15:38:05 on Jun 23,2021
 # vlog -work work stud21_1_top.vo 
 # -- Compiling module stud21_1_top
 # -- Compiling module hard_block
 # 
 # Top level modules:
 # 	stud21_1_top
-# End time: 14:38:04 on Jun 23,2021, Elapsed time: 0:00:00
+# End time: 15:38:05 on Jun 23,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:38:04 on Jun 23,2021
-# vlog -work work Waveform.vwf.vt 
+# Start time: 15:38:05 on Jun 23,2021
+# vlog -work work test_1_4.vwf.vt 
 # -- Compiling module stud21_1_top_vlg_vec_tst
 # 
 # Top level modules:
 # 	stud21_1_top_vlg_vec_tst
-# End time: 14:38:04 on Jun 23,2021, Elapsed time: 0:00:00
+# End time: 15:38:05 on Jun 23,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 
 # vsim -c -t 1ps -L fiftyfivenm_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.stud21_1_top_vlg_vec_tst 
-# Start time: 14:38:04 on Jun 23,2021
+# Start time: 15:38:05 on Jun 23,2021
 # Loading work.stud21_1_top_vlg_vec_tst
 # Loading work.stud21_1_top
 # Loading work.hard_block
@@ -124,28 +124,28 @@ Reading pref.tcl
 # Loading fiftyfivenm_ver.fiftyfivenm_adcblock
 # Loading altera_ver.PRIM_GDFF_LOW
 # ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\~QUARTUS_CREATED_ADC1~ '.  Expected 8, found 7.
-#    Time: 0 ps  Iteration: 0  Instance: /stud21_1_top_vlg_vec_tst/i1/\~QUARTUS_CREATED_ADC1~  File: stud21_1_top.vo Line: 2143
-# ** Warning: (vsim-3722) stud21_1_top.vo(2143): [TFMPC] - Missing connection for port 'clk_dft'.
+#    Time: 0 ps  Iteration: 0  Instance: /stud21_1_top_vlg_vec_tst/i1/\~QUARTUS_CREATED_ADC1~  File: stud21_1_top.vo Line: 6042
+# ** Warning: (vsim-3722) stud21_1_top.vo(6042): [TFMPC] - Missing connection for port 'clk_dft'.
 # ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\~QUARTUS_CREATED_ADC2~ '.  Expected 8, found 7.
-#    Time: 0 ps  Iteration: 0  Instance: /stud21_1_top_vlg_vec_tst/i1/\~QUARTUS_CREATED_ADC2~  File: stud21_1_top.vo Line: 2166
-# ** Warning: (vsim-3722) stud21_1_top.vo(2166): [TFMPC] - Missing connection for port 'clk_dft'.
+#    Time: 0 ps  Iteration: 0  Instance: /stud21_1_top_vlg_vec_tst/i1/\~QUARTUS_CREATED_ADC2~  File: stud21_1_top.vo Line: 6065
+# ** Warning: (vsim-3722) stud21_1_top.vo(6065): [TFMPC] - Missing connection for port 'clk_dft'.
 # after#26
-# ** Note: $finish    : Waveform.vwf.vt(57)
+# ** Note: $finish    : test_1_4.vwf.vt(63)
 #    Time: 600 ns  Iteration: 0  Instance: /stud21_1_top_vlg_vec_tst
-# End time: 14:38:04 on Jun 23,2021, Elapsed time: 0:00:00
+# End time: 15:38:05 on Jun 23,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 4
 
 Completed successfully. 
 
 **** Converting ModelSim VCD to vector waveform ****
 
-Reading C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/Waveform.vwf...
+Reading C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/test_1_4.vwf...
 
 Reading C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/simulation/qsim/stud21_1_top.msim.vcd...
 
 Processing channel transitions... 
 
-Writing the resulting VWF to C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/simulation/qsim/stud21_1_top_20210623143804.sim.vwf
+Writing the resulting VWF to C:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/simulation/qsim/stud21_1_top_20210623153806.sim.vwf
 
 Finished VCD to VWF conversion.
 

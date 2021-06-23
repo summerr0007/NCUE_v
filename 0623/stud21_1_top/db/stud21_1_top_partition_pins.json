@@ -160,6 +160,358 @@
 					"strict" : false
 				},
 				{
+					"name" : "key_buf_code_2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_2[7]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_2[8]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_2[9]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_2[10]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_2[11]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_2[12]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_2[13]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_2[14]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_2[15]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_2[16]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_2[17]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_2[18]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_2[19]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_2[20]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_2[21]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_2[22]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_2[23]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_3[0]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_3[1]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_3[2]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_3[3]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_3[4]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_3[5]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_3[6]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_3[7]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_3[8]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_3[9]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_3[10]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_3[11]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_3[12]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_3[13]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_3[14]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_3[15]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_3[16]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_3[17]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_3[18]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_3[19]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_3[20]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_3[21]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_3[22]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_3[23]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_3[24]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_3[25]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_3[26]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_3[27]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_3[28]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_3[29]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_3[30]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_3[31]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_4[0]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_4[1]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_4[2]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_4[3]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_4[4]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_4[5]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_4[6]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_4[7]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_4[8]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_4[9]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_4[10]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_4[11]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_4[12]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_4[13]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_4[14]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_4[15]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_4[16]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_4[17]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_4[18]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_4[19]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_4[20]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_4[21]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_4[22]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_4[23]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_4[24]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_4[25]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_4[26]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_4[27]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_4[28]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_4[29]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_4[30]",
+					"strict" : false
+				},
+				{
+					"name" : "key_buf_code_4[31]",
+					"strict" : false
+				},
+				{
 					"name" : "kc_sel[0]",
 					"strict" : false
 				},

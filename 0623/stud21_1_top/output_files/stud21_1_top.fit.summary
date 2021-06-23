@@ -1,15 +1,15 @@
-Fitter Status : Successful - Wed Jun 23 14:04:06 2021
+Fitter Status : Successful - Wed Jun 23 15:29:44 2021
 Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 Revision Name : stud21_1_top
 Top-level Entity Name : stud21_1_top
 Family : MAX 10
 Device : 10M50DAF484C7G
 Timing Models : Final
-Total logic elements : 38 / 49,760 ( < 1 % )
-    Total combinational functions : 15 / 49,760 ( < 1 % )
-    Dedicated logic registers : 34 / 49,760 ( < 1 % )
-Total registers : 34
-Total pins : 45 / 360 ( 13 % )
+Total logic elements : 109 / 49,760 ( < 1 % )
+    Total combinational functions : 51 / 49,760 ( < 1 % )
+    Dedicated logic registers : 102 / 49,760 ( < 1 % )
+Total registers : 102
+Total pins : 133 / 360 ( 37 % )
 Total virtual pins : 0
 Total memory bits : 0 / 1,677,312 ( 0 % )
 Embedded Multiplier 9-bit elements : 0 / 288 ( 0 % )

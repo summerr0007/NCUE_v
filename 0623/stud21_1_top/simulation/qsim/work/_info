@@ -10,23 +10,23 @@ z2
 cModel Technology
 dC:/Users/AAA/Documents/GitHub/NCUE_V/0623/stud21_1_top/simulation/qsim
 vhard_block
-Z0 !s110 1624430284
+Z0 !s110 1624433885
 !i10b 1
-!s100 RcQM<LAZon4W8OBL_5kP<3
+!s100 R?XMl[3WUBLVCmL6Z]dX;2
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I87a@FQ^_@k:H<8IE4ScFD3
+InOmdTHUd_bCZ74I0l0L2C2
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 Z3 dC:/Users/AAA/Documents/GitHub/NCUE_V/NCUE_v/0623/stud21_1_top/simulation/qsim
-Z4 w1624430282
+Z4 w1624433883
 Z5 8stud21_1_top.vo
 Z6 Fstud21_1_top.vo
-!i122 20
-L0 2268 45
+!i122 42
+L0 6343 45
 Z7 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z8 !s108 1624430284.000000
+Z8 !s108 1624433885.000000
 Z9 !s107 stud21_1_top.vo|
 Z10 !s90 -work|work|stud21_1_top.vo|
 !i113 1
@@ -35,16 +35,16 @@ Z12 tCvgOpt 0
 vstud21_1_top
 R0
 !i10b 1
-!s100 EWa;Z`X2f1jdSkJTG?Na:0
+!s100 iiakX50?SI^_^kKMIR7IQ1
 R1
-Ih<@_XDT9`e99e3YH[7eBA2
+INSTb6_SC_35;c?hJFMWOB3
 R2
 R3
 R4
 R5
 R6
-!i122 20
-L0 32 2235
+!i122 42
+L0 32 6310
 R7
 r1
 !s85 0
@@ -58,23 +58,23 @@ R12
 vstud21_1_top_vlg_vec_tst
 R0
 !i10b 1
-!s100 D2j6O3zaPCga:__I744=C0
+!s100 MRbVd1IS>Qi`:;c9]dOHF1
 R1
-Ig6RH^0JfR0VIo3S=`lkA:1
+IPe4I3PKEG5GIaOg21hJjK3
 R2
 R3
-R4
-8Waveform.vwf.vt
-FWaveform.vwf.vt
-!i122 21
-L0 30 125
+w1624433882
+8test_1_4.vwf.vt
+Ftest_1_4.vwf.vt
+!i122 43
+L0 30 127
 R7
 r1
 !s85 0
 31
 R8
-!s107 Waveform.vwf.vt|
-!s90 -work|work|Waveform.vwf.vt|
+!s107 test_1_4.vwf.vt|
+!s90 -work|work|test_1_4.vwf.vt|
 !i113 1
 R11
 R12
